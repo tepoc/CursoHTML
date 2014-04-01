@@ -1,0 +1,107 @@
+*{
+    text-shadow:none;
+}
+
+.fondoColor{
+    background-color:#13395D !important;
+    color:white !important;
+    /*font-size:20px;*/
+    border-style:none;
+}
+.fondoColor2{
+    background-color:#13395D !important;
+    color:white !important;
+    padding:20px;
+    text-align:center;
+    
+    /*font-size:20px;*/
+    border-style:none;
+}
+.fondoColor2 span{
+    color:#4a8418;
+}
+#der,#izq{
+    border:1px solid #13395D;
+    background-color:#13395D;
+    margin-right:20px;
+    color:white;
+    text-shadow:none;
+    box-shadow:none;
+} 
+#contenido{
+    
+    font-family: "Helvetica Neue",sans-serif;
+    color:white;
+    
+}
+#pagina{
+    background-image:url("coche.jpg");
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+
+#boton{
+    background-color:#FF6600;
+    text-shadow:none;
+    color:white;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+#boton2{
+    text-shadow:none;
+}
+.ui-btn,.ui-page-theme-a{
+    text-shadow:none;
+}
+#boton2{
+    background-color:rgba(3,167,242,.8);
+    color:white;
+}
+#lista{
+    width:90%;
+    
+    margin:2%;
+}
+p{
+    margin:0px;
+}
+.p1{
+    color:#D0d0d0;
+}
+.p2{
+    color:#4B5363;
+    font-weight:bold;
+    font-size:13px;
+}
+.p3{
+    color:#7f99b1;
+    font-weight:bold;
+    font-size:16px;
+}
+.p3 span{
+    font-weight:normal;
+    font-size:13px;
+}
+.bloque{
+    text-align:center;
+}
+.true{
+    padding:0px;
+    margin:0px;
+    color:#4B5363;
+    font-size:16px;
+    font-weight:900;
+}
+.p2 span{
+    font-size:14px;
+    font-weight:normal;
+}
+.divNegro{
+    color:black;
+}
+#select-choice-1{
+    width:60%;
+    
+}

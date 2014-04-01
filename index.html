@@ -1,0 +1,158 @@
+<!--
+To change this template use Tools | Templates.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jquery Mobile</title>
+    <link rel="stylesheet" href="jquery.mobile-1.4.2/jquery.mobile-1.4.2.min.css">
+    <script src="jquery-1.11.0.js"></script>
+    <script src="jquery.mobile-1.4.2/jquery.mobile-1.4.2.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+	<script src="fastclick.js"></script>
+	<script>
+		window.addEventListener('load',function(){
+			FastClick.attach(document.body);
+		});
+	</script>
+</head>
+<body>
+    <div data-role="page" id="pagina">
+        <div data-role="header" class="fondoColor ">
+            
+            <a href="#" class="ui-btn ui-icon-bars ui-btn-icon-notext ui-nodisc-icon" id="izq">Menu</a>
+            <h1>
+            TRUEcar
+            </h1>
+            <a href="#" id="der">Entra yaaa!!</a>    
+        </div>
+        <div data-role="main" class="ui-content" id="contenido">
+            <h2>Never Overpay</h2>
+            <p>TrueCar users save a overcharge blabla $5000</p>
+            
+            <div data-role="controlgroup">
+                <a href="#" class="ui-btn ui-icon-carat-d ui-btn-icon-right">Select a Make</a>
+                <a href="#" class="ui-btn ui-icon-carat-d ui-btn-icon-right">Select a Model</a>
+                <a href="#" class="ui-btn ui-icon-navigation ui-btn-icon-right">Enter ZIP Code</a>
+            </div>
+            <a data-transition="none" href="#pagina2"><button id="boton">
+            Siguiente <span style="font-size:10px;">>></span>
+            </button></a>
+            <div class="ui-grid-a">
+                <div class="ui-block-a" >
+                    <button id="boton2">
+                        BLABLA2
+                    </button>
+                </div>
+            </div>
+        </div>      
+    </div>
+    <div data-role="page" id="pagina2">
+        <div data-role="header" class="fondoColor ">
+            
+            <a href="#" class="ui-btn ui-icon-bars ui-btn-icon-notext ui-nodisc-icon" id="izq">Menu</a>
+            <h1>
+            Price Report
+            </h1>
+            <a data-transition="none" href="#pagina" class="ui-btn ui-icon-home ui-btn-icon-notext ui-nodisc-icon" id="der">Menu</a>  
+        </div>
+        <div data-role="main" class="ui-content" id="contenido">
+            <ul data-role="listview" id="lista">
+                <li>
+                    <a href="#pagina3">
+                        <img src="http://3.bp.blogspot.com/_5C80wwoAXLs/SYOkfuAfKqI/AAAAAAAACIQ/LoQnzIHqJQQ/s400/audi_r8_06.png">
+                        <h3>Audi wapo</h3>
+                        <p>TrueCar users save a overcharge blabla $5000</p>
+                        </a>
+                </li>
+            </ul>
+            <div class="ui-grid-a">
+                <div class="ui-block-a" >
+                    <button>
+                        Colors & Options
+                    </button>
+                </div>
+                <div class="ui-block-b" >
+                    <button >
+                        Incentives
+                    </button>
+                </div>
+            </div>
+            <div class="ui-grid-a">
+                <div class="ui-block-a bloque">
+                
+                <div class="ui-grid-a">
+                    <div class="ui-block-a bloque" >
+                    <p class="p1">
+                        ESTIMATED
+                    </p>
+                        <p class="p2">
+                        Loan payment
+                    </p>
+                        <p class="p3">
+                            $393<span>/mo</span>
+                    </p>
+                    </div>
+                    <div class="ui-block-b bloque" >
+                    <p class="p1">
+                        ESTIMATED
+                    </p>
+                        <p class="p2">
+                        Savings
+                    </p>
+                        <p class="p3">
+                            $463<span>/mo</span>
+                    </p>
+                    </div></div></div>
+                  
+                    
+                    <div class="ui-block-b bloque" >
+                    <p class="p1">
+                        ESTIMATED
+                    </p>
+                        
+                        <div class="p2">
+                            <p id="true">TRUE<span>Car</span>
+                            Dealer Price
+                        </p></div>
+                        <p class="p3">
+                            $393<span>/mo</span>
+                    </p>
+                </div>
+            </div></div>
+            <div data-role="footer" class="fondoColor2">
+                <p>Your estimated truecar dealer price is 1.64% below MSRP. <span>This is good price</span></p>
+        </div>
+        </div>  
+    <div data-role="page" id="pagina3">
+        <div data-role="header" class="fondoColor ">
+            
+            <a href="#" class="ui-btn ui-icon-bars ui-btn-icon-notext ui-nodisc-icon" id="izq">Menu</a>
+            <h1>
+            Price Report
+            </h1>
+            <a href="#pagina" class="ui-btn ui-icon-home ui-btn-icon-notext ui-nodisc-icon" id="der">Menu</a>   
+        </div>
+        <div data-role="main" class="ui-content" id="contenido">
+            <div class="divNegro">
+                    <h3>Audi wapo</h3>
+                    <img src="http://3.bp.blogspot.com/_5C80wwoAXLs/SYOkfuAfKqI/AAAAAAAACIQ/LoQnzIHqJQQ/s400/audi_r8_06.png">
+                <div data-role="fieldcontain">
+	
+	<select name="select-choice-1" id="select-choice-1">
+		<option value="standard">Modelo 1</option>
+		<option value="rush">Modelo 2</option>
+		<option value="express">Modelo 3</option>
+		<option value="overnight">Modelo 4</option>
+	</select>
+</div>
+            </div>
+            
+            <div data-role="footer" class="fondoColor2">
+                <p>Your estimated truecar dealer price is 1.64% below MSRP. <span>This is good price</span></p>
+        </div>
+        </div></div>
+    
+</body>
+</html>
